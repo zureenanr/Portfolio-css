@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+   
+    background-color: rgb(126, 55, 123);
+    height: 80px;
+    font-style: normal;
+    color: khaki;
+    justify-content: center;
+    margin-bottom: 500px;
+    padding-left: 40px;
+    padding-right: 30px;
+    position: fixed;
+    display: flex;
+}
+#home{
+    background-image: url(singapore.jpg);
+    background-size: cover;
+    /* margin-bottom: 5em; */
+    height:650px;
+}
+.nav{
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    color: azure;
+    position: relative;
+    top: 240px;
+    padding-bottom: 1em;
+}
+h2{
+    padding-right: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    bottom: 10px;
+}
+a{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-style: italic;
+    text-decoration: none;
+    /* box-shadow: 0 0 5px; */
+    color: rosybrown;
+}  
+a:hover{
+    color: azure;
+    
+}
+
+
+
+
+/* about section */
+.about-item {
+    margin-right: 70px;
+    width: 280px;
+    height: 360px;
+    float: left;
+    position: absolute;
+    left: 30px;
+    margin-top: 35px;
+ }
+.text1{
+    margin-right: 150px;
+    margin-top: 65px;
+    margin-bottom: 150px;
+    text-align: justify;
+}
+
+ul, li{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+p{
+    margin-top: 35px;
+}
+.p1 {
+    background-color: bisque;
+    margin-left: 350px;
+    padding: 40px;
+}
+#about{
+    padding-top: 100px;
+}
+/* end about */
+
+
+/* Services Section */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(45, 171, 225) 50%, rgb(255, 255, 255) 50%);
+    background-size: 50% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: #0f1002;
+    border: none;
+    box-shadow: 0 0 20;
+}
+.box img{
+width: 50px;
+height: 50px;
+background-color: lightblue;
+padding: 10px;
+}
+.headings{
+    font-style: oblique;
+    color: sandybrown;
+}
+#services{
+    padding-top: 100px;
+}
+/* end section */
+
+/* portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 350px;
+    height: 390spx;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    padding: 20px 0px;
+    margin: 20px auto;
+}
+.header ul{
+    padding: 0px;
+    margin: 0px;
+}
+.header ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: sandybrown;
+    margin: 20px 0px 0px 40px;
+    margin-left: 85px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h4{
+    text-align: center;
+    background-color: antiquewhite;
+}
+p{
+    margin: 50px;
+}
+#portfolio{
+    padding-top: 100px;
+}
+
+
+
+
+/* contact section */
+h1{
+    text-align: center;
+}
+iframe{
+    margin-top: 20px;
+    /* position: absolute; */
+    left:95px;
+    float: left;
+    margin-right: -400px;
+    margin-top: 100px;
+}
+.content{
+    /* position: absolute; */
+    /* right: 196px;
+    top: 250px; */
+    padding-bottom: 20px;
+    margin-top: 10em;
+    width: 350px;
+    margin-left: 50px;
+}
+input,textarea{
+    margin-top: 20px;
+    height: 30px;
+    width: 340px;
+    margin-left: 50em;
+   
+}
+.button{
+    width: 100px;
+    height: 25px;
+    background-color: aquamarine;
+}
+h2{
+    padding-right:590px ;
+    font-size: xx-large;
+    font-style: italic;
+}
+.fa { 
+    padding: 20px; 
+    font-size: 30px; 
+    width: 50px; 
+    text-align: center; 
+    text-decoration: none; 
+    margin: 5px 2px; 
+}
+  .fa:hover { 
+    opacity: 0.7; 
+} 
+.fa-facebook { 
+  background: #3B5998; 
+  color: white; 
+} 
+.fa-twitter { 
+  background: #55ACEE; 
+  color: white; 
+}
+.fa-instagram { 
+    background: #125688; 
+    color: white; 
+}
+.footer1{
+    margin-top: 10em;
+    /* position: absolute; */
+    /* top: 700px; */
+    /* align-items: center; */
+    margin-left: 30em;
+}
+#contact{
+    padding-top: 100px;
+}
